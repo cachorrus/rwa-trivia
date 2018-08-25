@@ -1,6 +1,6 @@
 # RwaTrivia
 
-This is part of building a new app for my series - Real World Angular. (https://blog.realworldfullstack.io/real-world-angular-part-0-from-zero-to-cli-ng-a2ff646b90cc)
+This is part-2 of building a new app for my series - Real World Angular. (https://blog.realworldfullstack.io/real-world-angular-part-2-its-a-material-world-2d70238ef8ef)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.5.
 
