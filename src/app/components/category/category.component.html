@@ -1,8 +1,12 @@
-<h2>Categories</h2>
-<h3>
-  <ul>
-    <li *ngFor="let item of categories | async">
-      {{ item.categoryName }}
-    </li>
-  </ul>
-</h3>
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>Categories</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <mat-list>
+      <mat-list-item *ngFor="let item of categories | async">
+          {{ item.categoryName }}
+      </mat-list-item>
+    </mat-list>
+  </mat-card-content>  
+</mat-card>

@@ -10,12 +10,12 @@ import { Question } from '../../models';
 })
 export class QuestionComponent implements OnInit {
 
-  question: Observable<Question[]>;
+  questions: Observable<Question[]>;
 
   constructor(private questionService: QuestionService) { }
 
   ngOnInit() {
-    this.question = this.questionService.getQuestions();
+    this.questions = this.questionService.getQuestions();
   }
 
 }

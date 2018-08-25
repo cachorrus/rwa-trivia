@@ -4,6 +4,9 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
 import { AppComponent, CategoryComponent, QuestionComponent, TagComponent } from './components';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatModule } from './material/material.module';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
   declarations: [
@@ -15,7 +18,10 @@ import { AppComponent, CategoryComponent, QuestionComponent, TagComponent } from
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule,
+    MatModule,
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
